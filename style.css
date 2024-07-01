@@ -1,0 +1,81 @@
+body{
+    background-color: #283149;
+    color: grey;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color :#283149;
+}
+a:hover{
+    color: #DBEDF3;
+  } 
+.nav >ul{
+    display: flex;
+    justify-content:flex-start;
+    font-size: 1rem;
+}
+.nav > ul li{
+    border: 1px solid grey;
+    padding: 6px;
+    background-color: grey;
+    color:  #283149;
+    border-radius: 6px;
+    list-style: none;
+    margin-right: 10px;
+}
+h1{
+    font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+  text-align: center;
+}
+.piano{
+   
+    margin: 15% auto;
+    margin-top: 0;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    align-items: center;
+    background-color: black;
+    border-radius: 16px;
+    color: white;
+}
+.container{
+    display: flex;
+
+}
+li{
+    list-style: none;
+}
+.piano .container .keys{
+    position:relative;
+}
+ .white{
+    color:black;
+    width: 70px;
+    height: 230px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    background: linear-gradient(#fff 96%, #eee 4%);
+    
+}
+.black{
+    z-index: 2;
+    width: 40px;
+    height: 140px;
+   background-color: #161515;
+    border-radius: 0 0 5px 5px;
+   margin: 0 -22px 0 -22px;
+}
+.piano .container .keys span{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
